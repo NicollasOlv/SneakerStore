@@ -9,5 +9,7 @@ namespace SneakerStore.Data
 
         public DbSet<Produto> Produtos { get; set; }
         public DbSet<Fornecedor> Fornecedores { get; set; }
+        public DbSet<Estoque> Estoques { get; set; }
+
     }
 }
